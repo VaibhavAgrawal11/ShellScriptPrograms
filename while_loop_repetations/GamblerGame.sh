@@ -1,4 +1,4 @@
-
+#!/bin/bash -x
 echo "Welcome to Gambler's Game:"
 stake=100
 goal=200
