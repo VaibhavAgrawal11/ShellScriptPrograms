@@ -1,3 +1,4 @@
+#!/bin/bash -x
 arr=[5]
 max=0
 min=1000
