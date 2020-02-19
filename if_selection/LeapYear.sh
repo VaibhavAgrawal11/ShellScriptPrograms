@@ -1,3 +1,4 @@
+#!/bin/bash -x
 echo "Enter year"
 read year
 if(( year > 999 ))
