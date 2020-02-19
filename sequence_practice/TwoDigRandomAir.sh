@@ -1,3 +1,4 @@
+#!/bin/bash -x
 rand1=$((RANDOM%90+10))
 echo $rand1
 rand2=$((RANDOM%90+10))
