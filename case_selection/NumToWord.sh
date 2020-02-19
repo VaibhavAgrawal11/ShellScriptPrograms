@@ -1,3 +1,4 @@
+#!/bin/bash -x
 echo "Enter a Single digit Number"
 read num
 case $num in
