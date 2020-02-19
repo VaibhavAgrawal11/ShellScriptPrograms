@@ -1,3 +1,4 @@
+#!/bin/bash -x
 echo "Enter a number less/equalto 9999:"
 read num
 case ${#num} in 
