@@ -1,3 +1,4 @@
+#!/bin/bash -x
 echo "Enter the week Number: "
 read weekday
 if(($weekday==0))
