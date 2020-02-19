@@ -1,3 +1,4 @@
+#!/bin/bash -x
 echo "Enter a number: "
 read number
 power=1
