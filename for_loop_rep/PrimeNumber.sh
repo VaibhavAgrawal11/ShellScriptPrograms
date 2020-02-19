@@ -1,3 +1,4 @@
+#!/bin/bash -x
 echo "Enter a Number"
 read  number
 flag=0
