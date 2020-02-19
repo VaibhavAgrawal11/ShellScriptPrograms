@@ -1,3 +1,4 @@
+#!/bin/bash -x
 day=$1
 month=$2
 if (( $month==03 && $day>=20 && $day<=31))
