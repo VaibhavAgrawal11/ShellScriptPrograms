@@ -1,3 +1,4 @@
+#!/bin/bash -x
 echo "Enter Num between 1 to 4"
 read num
 case $num in
