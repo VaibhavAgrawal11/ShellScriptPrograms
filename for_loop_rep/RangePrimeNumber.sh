@@ -1,3 +1,5 @@
+#!/bin/bash -x
+
 echo "Enter a lower range"
 read  low
 echo "Enter upper range"
