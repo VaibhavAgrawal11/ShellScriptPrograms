@@ -1,3 +1,4 @@
+#!/bin/bash -x
 echo "Welcome And Guess the Magic Number:"
 lower=1
 upper=100
