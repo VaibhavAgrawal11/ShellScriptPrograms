@@ -63,11 +63,13 @@ do
                 count11=$((count11+1)) 
                 birthMonth[$month]=${nameArray11[@]}
                 ;;
-		1) 
+		12) 
                 nameArray12[$count12]=$name 
                 count12=$((count12+1)) 
                 birthMonth[$month]=${nameArray12[@]}
                 ;;
+		*)
+		echo "Enter the valid month.."
 
 	esac
 done
