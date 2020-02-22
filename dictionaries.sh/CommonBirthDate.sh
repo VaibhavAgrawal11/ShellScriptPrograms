@@ -70,6 +70,7 @@ do
                 ;;
 		*)
 		echo "Enter the valid month.."
+		;;
 
 	esac
 done
