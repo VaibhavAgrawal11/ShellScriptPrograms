@@ -1,12 +1,16 @@
 #!/bin/bash -x 
 echo "Welcome to Dice game"
+#VARIABLES
 count1=0
 count2=0
 count3=0
 count4=0
 count5=0
 count6=0
+maximum=0
+minimum=11
 declare -A diceGame
+#LOOP WILL RUN UNTIL ANY OF THE DIE NUMBER COUNT REACHES 10
 while((count1<10 && count2<10 && count3<10 && count4 <10 && count5<10 && count6<10))
 do
 	random=$((RANDOM%6+1))
@@ -44,8 +48,7 @@ do
 	esac
 done
 echo "${!diceGame[@]} : ${diceGame[@]}"
-maximum=0
-minimum=11
+#RUN A LOOP TO GET MAXIMUM AND MINIMUM COUNT NUMBER APPEARED
 for((iter=1; iter<=6; iter++))
 do
 	if((${diceGame[$iter]} > $maximum))
