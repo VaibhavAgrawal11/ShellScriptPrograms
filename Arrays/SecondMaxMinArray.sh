@@ -1,15 +1,17 @@
 
 #!/bin/bash -x
+#VARIABLES
+bigNumber1=0
+bigNumber2=0
+smallNumber1=1000
+smallNumber2=1000
 for(( iter=0; iter<10; iter++))
 do
 	random=$((RANDOM%900+100))
 	arr[$iter]=$random
 done
 echo ${arr[@]}
-bigNumber1=0
-bigNumber2=0
-smallNumber1=1000
-smallNumber2=1000
+#LOOP UNTIL MAXIMUM AND MINIMUM NUMBER IS FOUND
 for((iter=0; iter<10; iter++))
 do
 	if((${arr[iter]}>$bigNumber1))
@@ -23,6 +25,7 @@ do
                 smallNumber1=${arr[iter]}
         fi
 done
+#LOOP UNTIL 2ND MAXIMUM AND 2ND MINIMUM NUMBER IS FOUND
 for((iter=0; iter<10; iter++))
 do
 	if((${arr[iter]}>$bigNumber2 && ${arr[iter]}<$bigNumber1))
