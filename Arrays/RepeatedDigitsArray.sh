@@ -1,5 +1,6 @@
 #!/bin/bash -x
 count=0
+#RUN THE LOOP FROM 0 TO 100 TO CHECK ALL THE REPEATED TWO DIGITS NUMBERS
 for((iteration=0; iteration<100; iteration++))
 do
 
