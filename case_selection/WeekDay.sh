@@ -1,21 +1,22 @@
 #!/bin/bash -x
 echo "Enter the week Number: "
 read weekday
+#CHECK THE WEEKNUMBER AND CONVERT TO WEEK NAME
 case $weekday in 
 	0)
-	echo "Sunday";;
+		echo "Sunday";;
 	1)
-	echo "Monday";;
+		echo "Monday";;
 	2)
-        echo "Tuesday";;
+      echo "Tuesday";;
 	3)
-        echo "Wednesday";;
+      echo "Wednesday";;
 	4)
-        echo "Thrusday";;
+      echo "Thrusday";;
 	5)
-        echo "Friday";;
+      echo "Friday";;
 	6)
-        echo "Saturday";;
+      echo "Saturday";;
 	*)
-	echo "Invalid";;
+		echo "Invalid";;
 esac
